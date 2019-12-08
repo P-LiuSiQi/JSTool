@@ -6,8 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>webpack4 quickstart</title>
+  <script src="./index.js">
+    let dom = document.getElementById("app")
+    dom.addEventListener('click', function () {
+      console.log(dom)
+    })
+  </script>
 </head>
 <body>
   <div id="app">asfdasdfsaf</div>
+
+  <style>
+    #app {
+      width: 300px;
+      height: 100px;
+      border: 1px solid #000;
+      background: #ccc;
+      cursor: point;
+    }
+  </style>
 </body>
 </html>
